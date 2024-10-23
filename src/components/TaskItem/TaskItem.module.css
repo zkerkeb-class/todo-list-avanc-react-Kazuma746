@@ -1,0 +1,42 @@
+.taskItem {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+  
+.taskItem:hover {
+    background-color: #e8e8e8;
+}
+  
+.taskText {
+    flex: 1;
+    margin: 0;
+}
+  
+.statusSelect {
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+  
+.deleteButton {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.deleteButton:hover {
+    background-color: #c82333;
+}
+  
